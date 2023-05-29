@@ -1,5 +1,5 @@
 # evetools_for_chaos_arbiter
-运行说明：
+## 运行说明：
 
 将EVE_DATA复制到D盘，或者修改程序里面的地址，然后运行，提示缺什么库，用PIP安装什么库就可以了
 
@@ -15,7 +15,7 @@ eve sde官方下载地址，除了目前用到的几个文件，里面还有很�
 
 https://developers.eveonline.com/resource
 
-
+## 功能
 目前实现功能：
 
 1、遍历所有能制造的产品，获取产品（BUY）跟材料（）SELL的市场价格），计算一键采购，直接卖出的利润率
@@ -39,4 +39,8 @@ https://developers.eveonline.com/resource
 
 3、从SDE中获取空间代理人列表，可以根据空间代理人军团、联盟，下拉，搜索出空间袋里信息
 
+## 环境配置
+Win:安装python（使用的环境为3.7.X），安装方式各异。安装成功后在cmd/anaconda prompt 中定位到该文件夹，并使用如下命令安装依赖。
+
+pip install -r requirements.txt
 
